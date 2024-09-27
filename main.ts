@@ -6,6 +6,7 @@
  * turns off when the B button is pressed.
 */
 
+//setup
 basic.clearScreen()
 pins.digitalWritePin(DigitalPin.P16, 0)
 basic.showIcon(IconNames.Happy)
